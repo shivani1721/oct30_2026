@@ -3,11 +3,12 @@ on:
   push:
 jobs:
   myjob1: 
-    run-on: ubuntu:latest
+    runs-on: ubuntu:latest
     steps:
       - name: mystep1
         run: |
           whoami
           pwd
+          cat /etc/passwd
 
 
