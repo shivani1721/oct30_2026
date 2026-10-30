@@ -10,5 +10,9 @@ jobs:
           whoami
           pwd
           cat /etc/passwd
+          cd 
+          ls -al
+
+
 
 
